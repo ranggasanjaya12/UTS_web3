@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Admin Earth’s Defenders</title>
+  <title>Admin</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -20,10 +20,10 @@
   <!-- /.login-logo -->
   <div class="card card-outline card-primary">
     <div class="card-header text-center">
-      <a href="{{ route('login') }}" class="h2"><b>Admin</b><br><b>Earth’s Defenders</b></a>
+      <a href="{{ route('login') }}" class="h2"><b>Admin</a>
     </div>
     <div class="card-body">
-      <p class="login-box-msg">Sign in Admin Earth’s Defenders</p>
+      <p class="login-box-msg">Sign in </p>
 
       <form action="{{ route('auth') }}" method="post">
         @csrf
@@ -75,9 +75,6 @@
       </p> -->
       <p class="mb-0">
         <a href="{{ route('register') }}" class="text-center">Register a new membership</a>
-      </p>
-      <p class="mb-0">
-        <a href="{{ route('welcome') }}" class="text-center">back to home</a>
       </p>
     </div>
     <!-- /.card-body -->
